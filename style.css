@@ -1,1 +1,5 @@
+/* This makes it easier to style things including the nav bar*/
+*{
+box-sizing: border-box;
+}
 
