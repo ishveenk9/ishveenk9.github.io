@@ -4,9 +4,9 @@ box-sizing: border-box;
 }
 
 body{
-	background-color: black;
+	background-color: #58B1FF;
 	font-family: "courier";
-	color: #58B1FF;
+	color: black;
 }
 
 /* Nav Bar Styling */
@@ -30,7 +30,6 @@ li a {
   text-decoration: none;
 }
 
-/* Change the link color to #111 (black) on hover */
 li a:hover {
   background-color: #d3d3d3;
 }
