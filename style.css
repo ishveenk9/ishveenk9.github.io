@@ -6,7 +6,7 @@ box-sizing: border-box;
 body{
 	background-color: black;
 	font-family: "courier";
-	color: white;
+	color: #58B1FF;
 }
 
 /* Nav Bar Styling */
@@ -15,7 +15,7 @@ ul {
   margin: 0;
   padding: 0;
   overflow: hidden;
-  background-color: #00008B;
+  background-color: #FFFFFF;
 }
 
 li {
@@ -32,5 +32,5 @@ li a {
 
 /* Change the link color to #111 (black) on hover */
 li a:hover {
-  background-color: #111;
+  background-color: #d3d3d3;
 }
