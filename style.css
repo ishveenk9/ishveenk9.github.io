@@ -45,3 +45,12 @@ li a:hover {
   width: 25%;
   height: auto;
 }
+
+/* Styling the content of the homepage*/
+.center {
+   position: absolute;
+   width: 70%;
+   left: 15%;
+   top: 10%;
+   background-color: #FDFBD4
+}
