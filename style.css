@@ -52,5 +52,6 @@ li a:hover {
    width: 70%;
    left: 15%;
    top: 10%;
-   background-color: #FDFBD4
+   background-color: #FDFBD4;
+   padding: 30px;
 }
