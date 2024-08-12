@@ -10,42 +10,27 @@ body{
 }
 
 /* Nav Bar Styling */
-.nav-container {
-	display: flex;
-	justify-content: space-between;
-	align-content: center;
-	width: 100%;
-	height: 50px;
-	color: white;
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
 }
 
-.logo-ref {
-	display: flex;
-	justify-content: space-between;
-	
+li {
+  float: left;
 }
 
-.logo-ref img {
-	height: 50px;
-	width: 50px;
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
 }
 
-.listed-items {
-	display: flex;
-	justify-content: space-between;
-}
-
-.some-cases {
-	display: flex;
-	align-items: center;
-}
-
-ul li {
-	display: inline-block;
-}
-
-ul li a{
-	padding: 10px 30px;
-	text-decoration: none;
-	color: white;
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+  background-color: #111;
 }
