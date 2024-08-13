@@ -68,5 +68,6 @@ li a:hover {
   height: auto;
   left: 10%;
   top: 10%;
+  bottom: 10%;
   border: 3px solid white;
 }
