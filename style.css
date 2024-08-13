@@ -60,3 +60,13 @@ li a:hover {
    text-align: center;
    padding: 10px;
 }
+
+/* Resume Styling*/
+.resume{
+  width: 90%;
+  height: auto;
+  left: 5%;
+  top: 10%;
+  border: 3px solid white;
+	
+}
