@@ -70,4 +70,6 @@ li a:hover {
   top: 10%;
   bottom: 10%;
   border: 3px solid white;
+  background-color: #bde0eb;
+  padding: 15px;
 }
