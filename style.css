@@ -64,9 +64,9 @@ li a:hover {
 /* Resume Styling*/
 .resume {
   position: absolute;
-  width: 90%;
+  width: 80%;
   height: auto;
-  left: 5%;
+  left: 10%;
   top: 10%;
   border: 3px solid white;
 }
