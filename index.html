@@ -1,36 +1,139 @@
 <!DOCTYPE html>
-<html>
-  <head>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="styles.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Ishveen Kaur</title>
+</head>
+<body>
+    <div id="navbar">
+        <h1>Ishveen Kaur</h1>
+        <a href="#about">About</a>
+        <a href="#projects">Projects</a>
+        <a href="#exp">Experiences</a>
+    </div>
+    <div id="profile">
+        <div><img width="250" src="images/profile-icon.png" /></div>
+        <div id="profile-text">
+          <p>Hello, I am</p>
+          <h2>Ishveen Kaur</h2>
+          <p>Boston University Student</p>
+          <div class="icons">
+            <a target="_blank" href="https://www.linkedin.com/in/ishveen-kaur5/"><img id="linkedin-img" width="60" src="https://upload.wikimedia.org/wikipedia/commons/c/ca/LinkedIn_logo_initials.png" /></a>
+            <a target="_blank" href="https://github.com/ishveenk9"><img id="github-img" width="60" src="https://cdn-icons-png.flaticon.com/512/25/25231.png" /></a>
+          </div>
+        </div>
+      </div>
 
-	<meta charset="utf-8" />
-	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
-	<meta name="viewport" content="width=device-width, initial-scale=1" />
-	
-	<link rel="stylesheet" href="/style.css" />
-	<script src="/script.js" defer></script>
-	 
-	  <ul>
-		<li><a href="resume.html">Resume</a></li>
-		<li><a class="active" href="index.html">Home</a></li>
-	      </ul>
-	
-  </head>
-<div class="center">
-  <body>
-	 <img class="homeImg" src="me.png">
-<div class="centerText">
-	  <h1>About Me</h1>
-	  <p>Hi, my name is Ishveen Kaur and I’m from Kansas City. I am currently a Computer Science student at Boston University in my sophomore year. 
-		  On campus I am the public relations chair for the Italian Learning Club, a member of Women in Computer Science, and a facilitator for Girls Who Code. 
-		  Outside of school, I like watching shows and movies, crocheting, and exploring different places. 
-		  Some of my current goals are to gain some professional experience to find out what I would like to do in the future. 
-		  If you have any questions, please don’t hesitate to reach out. 
-		  You can connect with me on Linkedin at www.linkedin.com/in/ishveen-kaur5 or  email me at ishveenk05@gmail.com.
+      <div id="about">
+        <h2>
+          <button class="toggler" onclick="toggle()">Hide</button>
+          About Me
+        </h2>
+        <div id="hideshow1">
+          <p>
+            Hi, my name is Ishveen Kaur and I’m from Kansas City. I am currently a sophmore Computer Science 
+            student at Boston University. 
+            On campus I am a facilitator for Girls Who Code, a member of Women in Computer Science,
+            a member of HackforImpact, andthe public relations chair for the Italian Learning Club. 
+            I am passionate about solving problems that have a big impact on the world. I am excited to further develop 
+            my problem-solving abilities and contribute to meaningful projects through internships, research opportunities, 
+            and hands-on experiences. I am particularly interested in exploring 
+            roles that challenge me to think critically and contribute to innovative solutions.
+            If you have any questions, please don’t hesitate to reach out. You can connect with me on Linkedin 
+            at www.linkedin.com/in/ishveen-kaur5 or email me at ishveenk05@gmail.com.
+          </p>
+          <br/>
+          <h3>My Skills</h3>
+          <div class="icons">
+            <img width="60" src="images/html-5-svgrepo-com.svg">
+            <img width="60" src="images/css-3-svgrepo-com.svg">
+            <img width="60" src="images/python-svgrepo-com.svg">
+            <img width="60" src ="images/javascript-svgrepo-com.svg">
+          </div>
+        </div>
+      </div>
+  
+      <div id="projects">
+        <h2>Projects</h2>
+        <div class="project">
+          <h3>BUdget</h3>
+          <p> This was a project created as an entry the 2024 Boston Hacks for the challenges Reimagine Reality and 
+            the Campus Solution Challenge. It can be agreed upon that budgeting is one of the 
+            biggest struggles in college. This website helps relieve some of the stress by creating
+            a budget personalized to the user based on their expenses and allowing them organize their finances. There are Tips for 
+            Terriers, as well as links to the dining plans and a nutritional calculator created in order to help users find out 
+            their other expenses and add them to their budget. The goal of this website was to make budgeting more friendly to the average 
+            student without the hassle of overcomplicating things. The website implements AI to give students an optimized way 
+            of handling their finances by using how much they want to save in a certain amount of time to figure out how much 
+            they should be saving by the end of each month. This website was created mainly using javascript but also some css 
+            and html for a few of the many different pages. 
 
-</p>
-</div>
+            The project can be seen in action <a target="_blank" href="https://devpost.com/software/budget-rw6tg9" >here.</a></p>
+          <a target="_blank" href="https://github.com/ishveenk9/BUdget-Website"><button class="github"><img class="github-inline" width="20" src="https://cdn-icons-png.flaticon.com/512/25/25231.png" /> GitHub</button></a>
+        </div>
+        <div class="project">
+          <h3>The Online Closet</h3>
+          <p>An application that allows users to store clothing or other inventory items into one place. 
+            The application allows the user to sort their items into categories and edit/delete items after adding them. 
+            It can also be altered to send alerts when the quantity/stock of an item is too low.  This application integrated 
+            User Authentication, User Registration, and Item Editing/Deleting into the application. It was programmed using 
+            Python with Django and HTML</p>
+          <a target="_blank" href="https://github.com/ishveenk9/Online_Closet"><button class="github"><img class="github-inline" width="20" src="https://cdn-icons-png.flaticon.com/512/25/25231.png" /> GitHub</button></a>
+        </div>
+      </div>
+
+      <div id="exp">
+        <h2>Experiences</h2>
+        <div class="job">
+          <h3>Facilitator</h3>
+          <h4>Girls Who Code, Boston, MA</h4>
+          <p class="date">Mar 2024 - Present</p>
+          <ul>
+            <li>
+              Instructed a group of approximately 25-30 students in grades 3-5 on coding using Scratch and Python
+            </li>
+            <li>
+              Facilitated Zoom sessions, addressing technical issues and moderating discussions to maintain a smooth virtual classroom environment for 1.5 hours a week
+            </li>
+            <li>
+              Provided support and resolved issues related to coursework, ensuring a positive learning experience outside and inside class times
+          </ul>
+        </div>
+        <div class="job">
+          <h3>Software Engineer Intern</h3>
+          <h4>Liberty 53 School District and & Kauffman Foundation, Liberty, MO</h4>
+          <p class="date">Aug 2022 - May 2023</p>
+          <ul>
+            <li>
+              Reconstructed 1 district plan to encourage students to gain more professional experience
+            </li>
+            <li>
+              Assisted 4 different departments with their websites to make them user-friendly by designing new layouts, incorporating student feedback, and programming new features
+            </li>
+            <li>
+              Contributed in the tech repair office for 4 hours a week during downtime by running tests on laptops and replacing needed components
+            </li>
+          </ul>
+        </div>
+        <div class="job">
+          <h3>Software Engineer Intern</h3>
+          <h4>OmniLife VR, Kansas City, MO</h4>
+          <p class="date">Jun 2022 - Jul 2022</p>
+          <ul>
+            <li>
+              Learned C# to understand VR programming to develop an app that connects VR to an external camera
+            </li>
+            <li>
+              Researched the proper tools to design the application given the design specifications
+            </li>
+            <li>
+              Constructed a detailed outline of the target product
+            </li>
+          </ul>
+        </div>
+      </div>
+      <script src="script.js"></script>
   </body>
-</div>
-	
 </html>
